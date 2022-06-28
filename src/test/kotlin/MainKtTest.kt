@@ -13,7 +13,7 @@ class MainKtTest {
             val total = 30_000_00L
 
             val result = commissionCount(cardType = card, transactionAmount = amount, lastMonthAmount = total)
-            assertEquals("Комиссия составляет 0 коп.", result)
+            assertEquals("Комиссия составляет 0 кп.", result)
         }
 
         @Test
